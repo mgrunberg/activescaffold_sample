@@ -8,6 +8,14 @@ RSpec.describe "Categories", type: :feature do
     expect(page).to have_css "h2", text: "Categories"
   end
 
+  it "should have text-input on search inputs" do
+    visit categories_path
+
+    click_link "Search"
+
+    expect(page).to have_css "#search_name.text-input", count: 1
+  end
+
   it "creating a Category" do
     visit categories_path
 
