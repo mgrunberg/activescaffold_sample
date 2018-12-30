@@ -217,7 +217,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_scaffold
+  active_scaffold (~> 3.4.0)
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
