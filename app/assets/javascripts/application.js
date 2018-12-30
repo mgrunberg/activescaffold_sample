@@ -13,6 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require active_scaffold
-//= require activestorage
 //= require turbolinks
 //= require_tree .
